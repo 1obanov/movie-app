@@ -1,0 +1,24 @@
+.swiper-slider {
+  &__wrapper {
+    --swiper-pagination-bottom: 0px;
+    --swiper-pagination-color: var(--primary);
+    --swiper-pagination-bullet-inactive-color: #435065;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-navigation-size: 30px;
+    --swiper-navigation-color: var(--primary);
+    position: relative;
+    padding: 50px;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

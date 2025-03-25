@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 @import "./base/common";
 
 @import "./components/loader-line";
@@ -6,6 +7,15 @@
 @import "./components/card";
 @import "./components/no-results";
 @import "./components/pagination";
+@import "./components/cast-card";
+@import "./components/crew-card";
+@import "./components/movie-rating";
+@import "./components/swiper-slider";
+@import "./components/review";
+@import "./components/headline";
 
 @import "./layouts/header";
 @import "./layouts/footer";
+@import "./layouts/movie-details";
+@import "./layouts/similar-movies";
+@import "./layouts/reviews";

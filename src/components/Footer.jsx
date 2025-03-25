@@ -1,17 +1,21 @@
-function Footer() {
+import { Link } from "react-router-dom";
+
+function Footer(props) {
+  const { resetSearchAndFilters } = props;
+
   return (
     <footer>
       <div className="container">
-        <a href="" className="logo">
+        <Link to={`/`} onClick={resetSearchAndFilters} className="logo">
           MOVIE <span>app</span>
-        </a>
+        </Link>
         <div className="copyright">
           <p>
             © {new Date().getFullYear()} All rights reserved. Created by
             <a
-              className=""
               href="https://www.linkedin.com/in/ihor-lobanov/"
               target="_blank"
+              rel="noreferrer"
             >
               Ihor Lobanov.
             </a>

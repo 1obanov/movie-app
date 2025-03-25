@@ -1,6 +1,6 @@
 header {
   padding: 15px 0;
-  border-bottom: 1px solid #151f30;
+  border-bottom: 1px solid var(--navy-200);
 
   .container {
     display: flex;
@@ -17,12 +17,12 @@ header {
     gap: 5px;
     font-size: 22px;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--white);
     font-weight: 700;
     line-height: 1;
 
     span {
-      color: var(--blue);
+      color: var(--primary);
       font-size: 14px;
     }
 
@@ -48,18 +48,18 @@ header {
 
     input {
       padding-right: 117px;
-      color: var(--color-text);
-      background-color: #151f30;
+      color: var(--white);
+      background-color: var(--navy-200);
       width: 100%;
       padding: 14px 20px;
       outline: none;
-      border: 1px solid #151f30;
+      border: 1px solid var(--navy-200);
       border: none;
       border-radius: 10px;
       font-size: 14px;
 
       &::placeholder {
-        color: var(--color-text);
+        color: var(--white);
       }
 
       &:focus {
@@ -81,26 +81,21 @@ header {
       align-items: center;
       justify-content: center;
 
-      &:hover {
-        svg {
-          path {
-            stroke: var(--color-text);
+      @media (hover: hover) {
+        &:hover {
+          svg {
+            path {
+              stroke: var(--white);
+            }
           }
         }
       }
 
       svg {
-        width: 20px;
-        height: 20px;
-
         path {
-          stroke: var(--blue);
+          stroke: var(--primary);
           transition: stroke 0.3s;
         }
-      }
-
-      img {
-        width: 20px;
       }
     }
   }
@@ -108,6 +103,6 @@ header {
   .link {
     flex-shrink: 0;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--white);
   }
 }

@@ -1,0 +1,15 @@
+.reviews {
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    &__item {
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

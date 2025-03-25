@@ -1,9 +1,30 @@
 .card {
+  position: relative;
   margin: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
-  position: relative;
+  text-decoration: none;
+
+  @media (hover: hover) {
+    &:hover {
+      .card__img {
+        img {
+          transform: scale(1.1);
+        }
+
+        svg {
+          transform: translateX(-50%) translateY(-50%) scale(1.1);
+        }
+      }
+
+      .card__title {
+        .title {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
 
   &__img {
     width: 100%;
@@ -11,7 +32,7 @@
     position: relative;
     padding-bottom: 150%;
     border-radius: 5px;
-    background: #151f30;
+    background: var(--navy-200);
 
     img {
       width: 100%;
@@ -20,6 +41,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      transition: transform 0.3s;
     }
 
     svg {
@@ -29,21 +51,28 @@
       top: 50%;
       left: 50%;
       transform: translateX(-50%) translateY(-50%);
+      transition: transform 0.3s;
 
       @media (max-width: 667px) {
         width: 50px;
         height: 50px;
       }
     }
+
+    &.no-image {
+      --border-width: 1px;
+      border: var(--border-width) solid var(--navy-100);
+      width: calc(100% - (var(--border-width) * 2));
+    }
   }
 
   &__title {
-    padding: 1rem 0 0;
-    margin-bottom: 0.5rem;
-    color: var(--color-text);
+    padding: 16px 0 0;
+    margin-bottom: 4px;
+    color: var(--white);
 
     .title {
-      font-size: 1rem;
+      font-size: 16px;
       margin: 0;
       font-weight: 700;
       display: inline-block;
@@ -51,14 +80,18 @@
       white-space: nowrap;
       overflow: hidden !important;
       text-overflow: ellipsis;
+      transition: opacity 0.3s;
     }
   }
 
   &__info {
     padding: 0;
     margin-top: auto;
-    color: var(--color-text);
+    color: var(--white);
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     strong {
       font-weight: 700;
@@ -71,13 +104,11 @@
 
       svg {
         flex-shrink: 0;
-        width: 15px;
-        height: 15px;
       }
     }
 
     p {
-      margin: 0 0 0.5rem;
+      margin: 0 0 8px;
     }
   }
 }

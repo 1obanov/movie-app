@@ -1,24 +1,24 @@
 <svg width="140" height="116" viewBox="0 0 140 116" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-outside-1_4_33" maskUnits="userSpaceOnUse" x="21" y="0" width="97" height="115" fill="black">
-<rect fill="white" x="21" width="97" height="115"/>
-<path d="M22 1H118V115H22V1Z"/>
-</mask>
-<path d="M22 1H118V115H22V1Z" fill="#2f80ed"/>
-<path d="M22 1V0H21V1H22ZM22 2H118V0H22V2ZM23 115V1H21V115H23Z" fill="#3D3E49" fill-opacity="0.4" mask="url(#path-1-outside-1_4_33)"/>
-<path d="M57.5 31.5L49.625 39.375" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M50.5 31.5L57.5 38.5" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M89.5 31.5L81.625 39.375" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M82.5 31.5L89.5 38.5" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="22" y1="95.5" x2="118" y2="95.5" stroke="#3D3E49"/>
-<line y1="115.5" x2="140" y2="115.5" stroke="#3D3E49" stroke-opacity="0.4"/>
-<line x1="28" y1="103.5" x2="44" y2="103.5" stroke="#3D3E49"/>
-<line x1="28" y1="108.5" x2="60" y2="108.5" stroke="#3D3E49"/>
-<ellipse cx="70" cy="57.5" rx="14" ry="8.5" fill="#151f30"/>
-<path d="M75.2881 56.1312C73.6384 55.7662 70.7584 57.3478 70 57.5C69.2416 57.6522 65.7276 55.3292 64.1524 56.1312C62.5772 56.9332 60.2013 57.7624 61.2653 60.8758C62.3294 63.9891 64.9773 70 69.9265 70C74.8757 70 79 62.1101 79 60.8758C79 59.6414 78.1752 57.956 78.1752 57.956C78.1752 57.956 76.9379 56.4962 75.2881 56.1312Z" fill="#23528f" stroke="#151f30"/>
-<mask id="path-13-outside-2_4_33" maskUnits="userSpaceOnUse" x="119" y="0" width="9" height="115" fill="black">
-<rect fill="white" x="119" width="9" height="115"/>
-<path d="M119 1H127V115H119V1Z"/>
-</mask>
-<path d="M119 1H127V115H119V1Z" fill="#23528f"/>
-<path d="M127 1H128V0H127V1ZM119 2H127V0H119V2ZM126 1V115H128V1H126Z" fill="#3D3E49" fill-opacity="0.4" mask="url(#path-13-outside-2_4_33)"/>
+	<mask id="path-1-outside-1_4_33" maskUnits="userSpaceOnUse" x="21" y="0" width="97" height="115" fill="black">
+		<rect fill="white" x="21" width="97" height="115" />
+		<path d="M22 1H118V115H22V1Z" />
+	</mask>
+	<path d="M22 1H118V115H22V1Z" fill="#2f80ed" />
+	<path d="M22 1V0H21V1H22ZM22 2H118V0H22V2ZM23 115V1H21V115H23Z" fill="#3D3E49" fill-opacity="0.4" mask="url(#path-1-outside-1_4_33)" />
+	<path d="M57.5 31.5L49.625 39.375" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+	<path d="M50.5 31.5L57.5 38.5" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+	<path d="M89.5 31.5L81.625 39.375" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+	<path d="M82.5 31.5L89.5 38.5" stroke="#282831" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+	<line x1="22" y1="95.5" x2="118" y2="95.5" stroke="#3D3E49" />
+	<line y1="115.5" x2="140" y2="115.5" stroke="#3D3E49" stroke-opacity="0.4" />
+	<line x1="28" y1="103.5" x2="44" y2="103.5" stroke="#3D3E49" />
+	<line x1="28" y1="108.5" x2="60" y2="108.5" stroke="#3D3E49" />
+	<ellipse cx="70" cy="57.5" rx="14" ry="8.5" fill="#151f30" />
+	<path d="M75.2881 56.1312C73.6384 55.7662 70.7584 57.3478 70 57.5C69.2416 57.6522 65.7276 55.3292 64.1524 56.1312C62.5772 56.9332 60.2013 57.7624 61.2653 60.8758C62.3294 63.9891 64.9773 70 69.9265 70C74.8757 70 79 62.1101 79 60.8758C79 59.6414 78.1752 57.956 78.1752 57.956C78.1752 57.956 76.9379 56.4962 75.2881 56.1312Z" fill="#23528f" stroke="#151f30" />
+	<mask id="path-13-outside-2_4_33" maskUnits="userSpaceOnUse" x="119" y="0" width="9" height="115" fill="black">
+		<rect fill="white" x="119" width="9" height="115" />
+		<path d="M119 1H127V115H119V1Z" />
+	</mask>
+	<path d="M119 1H127V115H119V1Z" fill="#23528f" />
+	<path d="M127 1H128V0H127V1ZM119 2H127V0H119V2ZM126 1V115H128V1H126Z" fill="#3D3E49" fill-opacity="0.4" mask="url(#path-13-outside-2_4_33)" />
 </svg>

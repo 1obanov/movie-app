@@ -1,0 +1,17 @@
+.movie-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &__vote {
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-200);
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+    }
+  }
+}

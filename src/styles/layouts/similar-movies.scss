@@ -1,0 +1,43 @@
+.similar-movies {
+  position: relative;
+  background: var(--navy-200);
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 250px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to top, rgba(19, 23, 32, 0) 0%, #131720 100%);
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 250px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(19, 23, 32, 0) 0%,
+      #131720 100%
+    );
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:last-of-type {
+    &::after {
+      background: linear-gradient(
+        to bottom,
+        rgba(21, 31, 48, 0) 0%,
+        var(--navy-200) 100%
+      );
+    }
+  }
+}

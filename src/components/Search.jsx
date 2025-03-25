@@ -1,42 +1,45 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import SVG from "react-inlinesvg";
 import searchBtn from "../assets/ico-search.svg";
 
-class Search extends React.Component {
-  handleKey = (event) => {
-    if (event.key === "Enter") {
-      this.props.removeActiveClassMovieList();
-      this.props.searchMovies(this.props.search);
+function Search(props) {
+  const { searchMovies, searchValue } = props;
+  const [value, setValue] = useState(searchValue);
+
+  // Handles the "Enter" key press event; triggers the search if the input value is not empty
+  const handleKey = (event) => {
+    if (event.key === "Enter" && value.trim()) {
+      handleOnClick();
     }
   };
 
-  handleOnClick = () => {
-    this.props.removeActiveClassMovieList();
-    this.props.searchMovies(this.props.search);
+  // Handles the click event for the search button; triggers the search if the input value is not empty
+  const handleOnClick = () => {
+    if (value.trim()) {
+      searchMovies(value);
+    }
   };
 
-  handleChange = (event) => {
-    this.props.updateSearch(event.target.value);
-  };
+  // Effect to update the input value whenever `searchValue` prop changes
+  useEffect(() => {
+    setValue(searchValue);
+  }, [searchValue]);
 
-  render() {
-    const { search } = this.props;
-    return (
-      <div className="search">
-        <input
-          placeholder="Search"
-          type="search"
-          className="validate"
-          value={search}
-          onChange={this.handleChange}
-          onKeyDown={this.handleKey}
-        />
-        <button className="btn" onClick={this.handleOnClick}>
-          <SVG src={searchBtn} />
-        </button>
-      </div>
-    );
-  }
+  return (
+    <div className="search">
+      <input
+        placeholder="Search"
+        type="search"
+        className="validate"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        onKeyDown={handleKey}
+      />
+      <button className="search__btn" onClick={handleOnClick}>
+        <SVG src={searchBtn} width={20} height={20} />
+      </button>
+    </div>
+  );
 }
 
 export { Search };
