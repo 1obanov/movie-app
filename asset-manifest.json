@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.bb7702a6.css",
+    "main.js": "/movie-app/static/js/main.1a4937ab.js",
+    "static/media/ico-error.svg": "/movie-app/static/media/ico-error.45bfb235e2fe73995beaea5d482d76d6.svg",
+    "static/media/ico-placeholder.svg": "/movie-app/static/media/ico-placeholder.98724c1aee5cb0cb5940413a07456592.svg",
+    "static/media/ico-prev.svg": "/movie-app/static/media/ico-prev.9ca63e1aeab3daf954e9e8c0dd1c636a.svg",
+    "static/media/ico-comment.svg": "/movie-app/static/media/ico-comment.236ad18457e224f0fe8c.svg",
+    "static/media/ico-next.svg": "/movie-app/static/media/ico-next.fa11ab0dba4527261a49b15834e1aaee.svg",
+    "index.html": "/movie-app/index.html",
+    "static/media/ico-imdb.svg": "/movie-app/static/media/ico-imdb.c0755d5d221be1580eb136fecf3dfc9c.svg",
+    "static/media/ico-play.svg": "/movie-app/static/media/ico-play.89e26caa7b43e4a25691ed20a0cd8741.svg",
+    "static/media/ico-avatar.svg": "/movie-app/static/media/ico-avatar.1e528c29dc70642eb5492ce90edf5228.svg",
+    "static/media/ico-star.svg": "/movie-app/static/media/ico-star.6d550c2ab74db56a224781952978513b.svg",
+    "static/media/ico-search.svg": "/movie-app/static/media/ico-search.49603712f3181c3f270f08672c88666a.svg",
+    "static/media/ico-arrow-right.svg": "/movie-app/static/media/ico-arrow-right.2e675d91c741ce1d5e227e3aca8cfdd6.svg",
+    "static/media/ico-close.svg": "/movie-app/static/media/ico-close.d29ff1bd5eae5b121a0bb5c07af1f387.svg",
+    "static/media/ico-arrow-down.svg": "/movie-app/static/media/ico-arrow-down.03ed42ff45d73b323d72.svg",
+    "main.bb7702a6.css.map": "/movie-app/static/css/main.bb7702a6.css.map",
+    "main.1a4937ab.js.map": "/movie-app/static/js/main.1a4937ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb7702a6.css",
+    "static/js/main.1a4937ab.js"
+  ]
+}
