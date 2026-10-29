@@ -33,7 +33,7 @@ Explore the live demo of the **Movie App** [here](https://1obanov.github.io/movi
 
 ```
 # Clone the repository
-git clone https://github.com/your-username/movie-app.git
+git clone https://github.com/1obanov/movie-app.git
 
 # Navigate to the project directory
 cd movie-app
